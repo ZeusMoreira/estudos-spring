@@ -165,7 +165,7 @@ Ele funciona com qualquer banco SQL e abstrai muitas operações repetitivas.
 ### Por que citar o JPA agora?
 
 Quando temos uma API, geralmente o intuito é **receber, buscar e enviar dados**.  
-Como utilizaremos o **H2**, é necessário indicar para o **Spring Data JPA** qual **dialeto** do banco usar, já que cada SQL tem suas particularidades.
+Como utilizaremos o **H2**, é necessário indicar para o **Spring Data JPA** qual **dialeto** do banco usar, já que cada SGBD tem suas particularidades.
 
 No `application.yml` fica assim:
 
